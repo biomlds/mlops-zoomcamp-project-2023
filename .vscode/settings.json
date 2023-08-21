@@ -1,0 +1,48 @@
+{
+    "dev.containers.dockerPath": "docker",
+    "dev.containers.dockerComposePath": "docker-compose",
+    "workbench.startupEditor": "none",
+    "editor.minimap.renderCharacters": false,
+    "workbench.colorTheme": "Monokai",
+    "editor.minimap.enabled": false,
+    "python.defaultInterpreterPath": "python",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.formatting.autopep8Path": "/usr/local/py-utils/bin/autopep8",
+    "python.formatting.blackPath": "/usr/local/py-utils/bin/black",
+    "python.formatting.yapfPath": "/usr/local/py-utils/bin/yapf",
+    "python.linting.banditPath": "/usr/local/py-utils/bin/bandit",
+    "python.linting.mypyPath": "/usr/local/py-utils/bin/mypy",
+    "python.linting.pycodestylePath": "/usr/local/py-utils/bin/pycodestyle",
+    "python.linting.pydocstylePath": "/usr/local/py-utils/bin/pydocstyle",
+    "python.linting.pylintPath": "/usr/local/py-utils/bin/pylint",
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "none",
+    "python.languageServer": "Pylance",
+    "explorer.confirmDragAndDrop": false,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+    },
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
+    "python.analysis.typeCheckingMode": "basic",
+}
+// "[python]": {
+//     "editor.defaultFormatter": "ms-python.black-formatter",
+//     "editor.formatOnSave": true,
+//     "editor.codeActionsOnSave": {
+//         "source.organizeImports": true
+//     },
+// },
+// "isort.args": [
+//     "--profile",
+//     "black"
+// ],
